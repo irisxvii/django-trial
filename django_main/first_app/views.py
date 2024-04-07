@@ -3,4 +3,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def first_print(request):
-    return HttpResponse("i love you 3000")
+    return HttpResponse("<b>i love you 3000")
